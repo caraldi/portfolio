@@ -1,0 +1,99 @@
+.navbar {
+  background-color: #333;
+  opacity: 0.9;
+  position: fixed;
+  vertical-align: top;
+  color: #FFF;
+  width: 100%;
+  display: inline-block;
+}
+
+.navbar a {
+  color: #FFF;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navlink {
+  padding: 1%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navlink_hover {
+  color: #000;
+}
+
+@media only screen and (min-width: 480px) {
+  .hero {
+    background-image: url(../imgs/dumpster_squirrel.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }
+
+  .navbar {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .herocontent {
+    font-family: 'Galada', cursive;
+    padding-top: 15%;
+    padding-bottom: 30%;
+    height: 100%;
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .bio {
+    background-color: #999;
+    color: #FFF;
+    padding: 5%;
+    width: 90%;
+    line-height: 150%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero {
+    background-image: url(../imgs/dumpster_squirrel_full.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .herocontent {
+    font-family: 'Galada', cursive;
+    padding: 7% 10% 25% 10%;
+    color: #FFF;
+    font-size: 3em;
+  }
+
+  .bio {
+    background-color: #999;
+    opacity: 0.9;
+    color: #FFF;
+    width: 90%;
+    padding: 5%;
+    line-height: 150%;
+  }
+}
+
+.name {
+  font-family: 'Galada', cursive;
+  font-size: 1.5em;
+}
+
+.footer {
+  width: 100%;
+  background-color: #666;
+  color: #FFF;
+  height: 3%;
+  padding: 1%;
+  vertical-align: bottom;
+  position: fixed;
+}
