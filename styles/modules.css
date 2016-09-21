@@ -1,0 +1,177 @@
+.navbar {
+  background-color: #333;
+  opacity: 0.9;
+  position: fixed;
+  color: #FFF;
+  display: inline-block;
+  z-index: 3;
+}
+
+.navbar a {
+  color: #FFF;
+}
+
+.navbar ul {
+  margin:0 auto;
+  list-style:none;
+  padding-left:0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin:0 3%;
+}
+
+.navlink {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+.navlink_hover {
+  color: #000;
+}
+
+@media only screen and (min-width: 375px) {
+  .hero {
+    background-image: url(../imgs/stairs.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .navbar {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .navlink {
+    padding: 4%;
+  }
+
+  .icon-menu3 {
+    display: inline-block;
+  }
+
+  .herocontent {
+    font-family: 'Galada', cursive;
+    padding: 50% 10% 40% 12%;
+    line-height:50%;
+    height: 100%;
+    color: #333;
+    opacity:0.8;
+    font-size: 1.8em;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .bio {
+    background-color: #000;
+    opacity: 0.85;
+    color: #FFF;
+    padding: 3%;
+    width: 94%;
+    line-height: 150%;
+    z-index: 1;
+  }
+
+  .portfolio {
+    background-color: #000;
+    color: #FFF;
+    padding: 3%;
+    width: 94%;
+    line-height: 150%;
+    z-index: 1;
+  }
+
+  .something {
+    background-color: #999;
+    color: #FFF;
+    padding: 3%;
+    width: 94%;
+    line-height: 150%;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+
+  .navlink {
+    padding:2%;
+  }
+
+  .hero {
+    background-image: url(../imgs/stairs.jpg);
+    background-size: cover;
+    background-position: 40% 75%;
+    background-repeat: no-repeat;
+    background-image: fixed;
+  }
+
+  .herocontent {
+    font-family: 'Galada', cursive;
+    padding: 22% 10% 23% 12%;
+    color: #333;
+    opacity:0.8;
+    font-size: 3em;
+    z-index: 2;
+  }
+
+  .bio {
+    background-color: #000;
+    opacity: 0.8;
+    color: #FFF;
+    width: 94%;
+    padding: 3%;
+    line-height: 150%;
+    z-index: 1;
+  }
+
+  .portfolio {
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+    padding: 0;
+    line-height: 150%;
+    z-index: 1;
+  }
+
+  .port_img {
+    padding:3%;
+    width: 43%;
+    display:inline-block;
+    vertical-align: top;
+    text-align:center;
+  }
+
+  .something {
+    background-color: #999;
+    opacity: 0.96;
+    color: #FFF;
+    padding: 3%;
+    width: 94%;
+    line-height: 150%;
+  }
+}
+
+.name {
+  font-family: 'Galada', cursive;
+  font-size: 1.5em;
+}
+
+img {
+  width: 100%;
+  opacity: 1;
+}
+
+.footer {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  background-color: #666;
+  color: #FFF;
+  height: 3%;
+  vertical-align: bottom;
+  display: inline-block;
+  margin: 0 auto;
+}
