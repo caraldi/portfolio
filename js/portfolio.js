@@ -38,5 +38,6 @@ portfolioItems.forEach(function(a) {
 
 //for each object in the portfolio array, add that (html) to the element with the id 'portfolio'
 portfolio.forEach(function(b) {
-  $('#portfolio').append(a.toHtml());
+  // Caitlin changed (a.toHtml to b.toHtml to fix rendering issue)
+  $('#portfolio').append(b.toHtml());
 });
